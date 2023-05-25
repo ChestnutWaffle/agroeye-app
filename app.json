@@ -1,10 +1,22 @@
 {
   "expo": {
-    "scheme": "acme",
+    "name": "agroeye",
+    "slug": "agroeye",
+    "scheme": "agroeye",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.enimagine.agroeye"
+    },
     "web": {
       "bundler": "metro"
     },
-    "name": "agroeye",
-    "slug": "agroeye"
+    "extra": {
+      "eas": {
+        "projectId": "14c12b32-578c-43e0-97e2-66624bcb76e8"
+      }
+    }
   }
 }
